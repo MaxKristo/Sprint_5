@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 class Locators:
 
-# Главная 
+# Главная
     button_login_in_main = (By.XPATH, './/button[text() = "Войти в аккаунт"]')     # Кнопка "Войти в аккаунт" на главной
     register_button_login = (By.XPATH, '//a[text() = "Зарегистрироваться"]')       # Ссылка "Зарегистрироваться" в окне авторизации
 
