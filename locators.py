@@ -36,6 +36,7 @@ class Locators:
     fillings_block = (By.XPATH, '//span[text() = "Начинки"]')                      # Заголовок раздела "Начинки" в меню конструктора
     title_assemble_the_burger = (By.XPATH, ".//h1")                                # Надпись, "Соберите бургер"
 
+
     proverka_sauces = By.XPATH, './/*[text()="Соус Spicy-X"]'                      # поиск названия соуса Spicy-X
     proverka_buns = By.XPATH, './/*[text()="Флюоресцентная булка R2-D3"]'          # поиск названия булки Флюоресцентная булка R2-D3
     proverka_fillings = By.XPATH, './/*[text()="Мясо бессмертных моллюсков Protostomia"]'  # поиск названия начинки Мясо бессмертных моллюсков Protostomia
