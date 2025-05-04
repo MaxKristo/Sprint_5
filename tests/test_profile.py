@@ -55,3 +55,4 @@ class Test_profile:
         driver.find_element(*Locators.button_logout).click()
         assert WebDriverWait(driver, 3).until(expected_conditions.visibility_of_element_located(Locators.login_title)).text == 'Вход'
 
+
