@@ -6,6 +6,7 @@ from conftest import driver
 
 class Testlogin:
 
+
     # вход по кнопке «Войти в аккаунт» на главной
     def test_login_by_button_login_to_account_on_home(self,driver):
         driver.find_element(*Locators.button_login_in_main).click()
