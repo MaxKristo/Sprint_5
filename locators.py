@@ -31,9 +31,9 @@ class Locators:
     button_logout = (By.XPATH, '//button[@type = "button"]')                       # Кнопка "Выйти", логаут
 
 # Конструктор
-    buns_block = (By.XPATH, '//span[text() = "Булки"]')                            # Заголовок раздела "Булки" в меню конструктора
-    sauces_block = (By.XPATH, '//span[text() = "Соусы"]')                          # Заголовок раздела "Соусы" в меню конструктора
-    fillings_block = (By.XPATH, '//span[text() = "Начинки"]')                      # Заголовок раздела "Начинки" в меню конструктора
+    buns_block = (By.XPATH, '//span[text()="Булки"]/parent::div')                  # Заголовок раздела "Булки" в меню конструктора
+    sauces_block = (By.XPATH, '//span[text()="Соусы"]/parent::div')                # Заголовок раздела "Соусы" в меню конструктора
+    fillings_block = (By.XPATH, '//span[text()="Начинки"]/parent::div')            # Заголовок раздела "Начинки" в меню конструктора
     title_assemble_the_burger = (By.XPATH, ".//h1")                                # Надпись, "Соберите бургер"
 
 

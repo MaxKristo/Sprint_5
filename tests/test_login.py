@@ -15,6 +15,7 @@ class Testlogin:
         driver.find_element(*Locators.fields_password_auth).send_keys(Data.password)
         driver.find_element(*Locators.button_login).click()
         assert WebDriverWait(driver, 5).until(expected_conditions.visibility_of_element_located(Locators.button_make_the_order)).text == 'Оформить заказ'
+        # не совсем понимаю про какие тестовые данные имеются ввиду (email and password вынесены в data)
 
 
     def test_enter_button_personal_account(self, driver):

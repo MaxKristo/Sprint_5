@@ -1,7 +1,6 @@
 import random
 
 class Data:
-    Stellar_Burgers_URL = "https://stellarburgers.nomoreparties.site/"
     email = "max_shavel_19@yandex.ru"
     password = "park7700"
     username = "Maxim"
