@@ -17,8 +17,8 @@
 7. data.py - файл с адресом сайта Stellar Burgers и валидными значениями аккаунта
 
 # Команды
-Основа для написания автотестов — фреймворк pytest и инструмент Selenium WebDriver.
-Установить зависимости — pip install -r requirements.txt
-Установить pytest — pip install pytest
-Установить Selenium WebDriver — pip install selenium
-Команда для запуска — pytest -v
+- Основа для написания автотестов — фреймворк pytest и инструмент Selenium WebDriver.
+- Установить зависимости — pip install -r requirements.txt
+- Установить pytest — pip install pytest
+- Установить Selenium WebDriver — pip install selenium
+- Команда для запуска — pytest -v
